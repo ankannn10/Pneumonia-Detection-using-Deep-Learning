@@ -38,6 +38,9 @@ Since this is a binary classification problem, we used ReLU activation to output
 For the case of Pneumonia, we will aim to have high recall as any delayed diagnosis means that someone may get really sick and potentially lose their life. We do that by first having our model optimize for AUC score, focusing on having a good measure of separability for our binary classification. Then, we can crank the threshold up and down (from 0.5) if the business feels more comfortable with a higher or lower FP or FN.
 
 ## Results
+### Summary Statistics
+Accuracy = 92.12% | Precision = 92.55% | Recall = 97.03% | Specificity = 78.81% | F1 Score = 94.74% | AUC = 97.11%
+
 ### Fit
 Through each epoch during the learning process, validation loss and training loss approach each other, which means our model doesn’t seem to have much overfitting or underfitting. Moreover, training and validation AUC score also converges to a point where they’re almost equal in the end.
 ![Fit](images/Fit.png)
