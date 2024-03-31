@@ -11,7 +11,7 @@ Build a deep learning model that detects Pneumonia on patient's chest X-Ray imag
 Data is obtained from Kaggle, which are chest X-Ray images of pediatric patients under age of 5 from a Medical Center in Guangzhou, China. It contains a total of 5,856 images in different sizes.
 
 ### 2. Data Exploration
-As the validation dataset arranged by Kaggle is too small, I've re-split the entire dataset into this ratio: 70% train, 15% validation, and 15% test. The training dataset is distributed as 73.05% of X-rays has pneumonia and 26.95% doesn't. This is Set B of my data-set folder and I have used 5454 images in total. I also re-split the dataset into the ratio of 80% train, 10% validation, 10% test (named Set A), but it did not performed up to the mark so I finalized Set B.
+As the validation dataset arranged by Kaggle is too small, I've re-split the entire dataset into this ratio: 70% train, 15% validation, and 15% test. The training dataset is distributed as 73.05% of X-rays has pneumonia and 26.95% doesn't. This is Set B of my data-set folder and I have used 5851 images in total. I also re-split the dataset into the ratio of 80% train, 10% validation, 10% test (named Set A), but it did not performed up to the mark so I finalized Set B.
 ![CNN MODEL ARCHITECTURE](images/normal%20v%20pneumonia.png)
 
 ### 3. Image Pre-processing
